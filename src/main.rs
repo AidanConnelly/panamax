@@ -10,6 +10,7 @@ mod progress_bar;
 mod rustup;
 mod serve;
 mod verify;
+mod crate_version_set;
 
 /// Mirror rustup and crates.io repositories, for offline Rust and cargo usage.
 #[derive(Debug, Parser)]
